@@ -1,15 +1,20 @@
 var bakeryLabels = ["2026-2024","2023-2020","2019-2016","2015-2013"];
 
+//2026 img
+//2023 img
+//2019 img
+//2015 img
+
+
 setup = function() {
 
   size(800, 800); 
   background(0,0,0,0);
-
   var crossiantX = 60;
   textSize(30);
 
   while(crossiantX < 300){
-    text("🥐", crossiantX, 85);
+    text("✦", crossiantX, 85);
     crossiantX += 40;
   }
 
@@ -21,7 +26,12 @@ setup = function() {
 }
 
 draw = function(){   
+//2026 img
+var 2026X = 60;
 
+while (2026X <200){
+  image()
+}
 }
 
 
